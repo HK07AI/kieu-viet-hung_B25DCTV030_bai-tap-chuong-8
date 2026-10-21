@@ -1,0 +1,24 @@
+.app-container {
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+/* Giao diện Sáng */
+.app-container.light {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Giao diện Tối */
+.app-container.dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.app-container.dark input,
+.app-container.dark select,
+.app-container.dark button {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
